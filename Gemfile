@@ -24,6 +24,9 @@ gem 'redis', '~> 4.0'
 gem "hotwire-rails", "~> 0.1.1"
 gem "rest-client"
 gem "json"
+gem 'bootstrap-sass', '~> 3.4.1'
+gem 'sassc-rails', '>= 2.1.0'
+gem 'simple_form'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
