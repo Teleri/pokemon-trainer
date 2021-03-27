@@ -11,10 +11,8 @@ class TrainersController < ApplicationController
   def create
     @trainer = Trainer.new(trainer_params)
     if @trainer.save
-      flash[:success] = "Trainer successfully created"
       redirect_to @trainer
     else
-      flash[:error] = "Something went wrong"
       render 'new'
     end
   end
