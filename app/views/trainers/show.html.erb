@@ -1,1 +1,26 @@
-<%= @trainer.name %>
+<div class="trainer-container">
+  <div class="trainer-details">
+    <strong>Trainer Details</strong>
+    <ul class="trainer-details-list">
+      <li><strong>Name:</strong> <%= @trainer.name %></li>
+      <li><strong>Age:</strong> <%= @trainer.age %></li>
+      <li><strong>Gender:</strong> <%= @trainer.gender %></li>
+      <li><strong>Favourite Pokemon:</strong> <%= @trainer.favourite_pokemon %></li>
+      <li><strong>Hometown:</strong> <%= @trainer.hometown %></li>
+    </ul>
+  </div>
+  <div class="trainer-avatar">
+    <%= image_tag("mikey-avatar", size: "300") %>
+  </div>
+  <div class="trainer-pokemon-list">
+    <strong>Pokemon List</strong>
+    <ul class="trainer-pokemon-list-list">
+      <li>Charmander</li>
+      <li>Pikachu</li>
+      <li>Gengar</li>
+      <li>Mew</li>
+      <li>Bulbasaur</li>
+      <li>Gloom</li>
+    </ul>
+  </div>
+</div>
